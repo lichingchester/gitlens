@@ -1,0 +1,40 @@
+{
+  "name": "gitreport",
+  "version": "0.0.1",
+  "description": "Generate and analyze report by your git project",
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichingchester/gitreport.git"
+  },
+  "keywords": [
+    "git",
+    "nodejs",
+    "report",
+    "analytics",
+    "lens"
+  ],
+  "author": "lichingchester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lichingchester/gitreport/issues"
+  },
+  "homepage": "https://github.com/lichingchester/gitreport#readme",
+  "files": [
+    "libs",
+    "package.json"
+  ],
+  "devDependencies": {
+    "rollup": "^2.71.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.4"
+  }
+}

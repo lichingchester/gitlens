@@ -1,0 +1,1 @@
+{"mappings":"AAAA,oBAAoB,CAAC,EAAE,GAAG,EAAE,CAAC,EAAE,GAAG,OAEjC","sources":["src/src/index.ts","src/index.ts"],"sourcesContent":[null,"export function add(a: any, b: any) {\n  return a + b;\n}\n"],"names":[],"version":3,"file":"types.d.ts.map","sourceRoot":"../"}
